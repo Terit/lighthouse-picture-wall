@@ -22,11 +22,6 @@ body {
       /*border: 1px solid gray;*/
       margin: 10px;
       padding: 6px;
-      
-      img {
-        width: 300px;
-        height: 200px;
-      }
 
       div.image {
         width: 300px;
@@ -38,10 +33,14 @@ body {
           image: url("../images/#{$name}.jpg");
           size: 100%;
         }
+        transition-duration: 2s;
       }
 
       div.image:hover {
         background-image: url("../images/#{$name}2.jpg");
+        transition-duration: 2s;
+        transition-timing-function: ease-out;
+        transform: rotate3d(1, 2.0, 3.0, 10deg);
       }
 
     }
