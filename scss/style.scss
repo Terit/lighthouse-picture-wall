@@ -15,11 +15,22 @@ body {
 #team-members {
   clear: both;
 
+  .member:nth-child(even) {
+    div.image:hover {
+      transform: rotate3d(1, 2.0, 3.0, 10deg);
+    }
+  
+  }
+  .member:nth-child(odd) { 
+    div.image:hover {
+      transform: rotate3d(1, 2.0, 3.0, -10deg);
+    }
+  }
+
   @each $name in $names {
     $i: index($names, $name);
     .member:nth-child(#{$i}) {
       float: left;
-      /*border: 1px solid gray;*/
       margin: 10px;
       padding: 6px;
 
@@ -40,12 +51,15 @@ body {
         background-image: url("../images/#{$name}2.jpg");
         transition-duration: 2s;
         transition-timing-function: ease-out;
-        transform: rotate3d(1, 2.0, 3.0, 10deg);
       }
 
-    }
       div.name {
         text-align: center;
       }
+      div.name:before {
+        content: $name;
+      }
+      
+    }
   }
 }
