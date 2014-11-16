@@ -6,15 +6,221 @@ body {
 
 #team-members {
   clear: both; }
-  #team-members .member {
+  #team-members .member:nth-child(1) {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
     padding: 6px; }
-    #team-members .member img {
-      width: 200px;
+    #team-members .member:nth-child(1) img {
+      width: 300px;
       height: 200px; }
-    #team-members .member div.name {
-      text-align: center; }
+    #team-members .member:nth-child(1) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(1) div.image:hover {
+      background-image: url("../images/2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: ""; }
+  #team-members .member:nth-child(2) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(2) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(2) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Andrew Theriault.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(2) div.image:hover {
+      background-image: url("../images/Andrew Theriault2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Andrew Theriault"; }
+  #team-members .member:nth-child(3) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(3) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(3) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Ashley Theiss.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(3) div.image:hover {
+      background-image: url("../images/Ashley Theiss2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Ashley Theiss"; }
+  #team-members .member:nth-child(4) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(4) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(4) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Casey Sampson.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(4) div.image:hover {
+      background-image: url("../images/Casey Sampson2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Casey Sampson"; }
+  #team-members .member:nth-child(5) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(5) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(5) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Dave Hyatt.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(5) div.image:hover {
+      background-image: url("../images/Dave Hyatt2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Dave Hyatt"; }
+  #team-members .member:nth-child(6) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(6) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(6) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Donald (DJ) Ballard.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(6) div.image:hover {
+      background-image: url("../images/Donald (DJ) Ballard2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Donald (DJ) Ballard"; }
+  #team-members .member:nth-child(7) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(7) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(7) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Dustin Roe.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(7) div.image:hover {
+      background-image: url("../images/Dustin Roe2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Dustin Roe"; }
+  #team-members .member:nth-child(8) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(8) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(8) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Harper Price-Brown.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(8) div.image:hover {
+      background-image: url("../images/Harper Price-Brown2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Harper Price-Brown"; }
+  #team-members .member:nth-child(9) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(9) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(9) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Jan De Graad.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(9) div.image:hover {
+      background-image: url("../images/Jan De Graad2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Jan De Graad"; }
+  #team-members .member:nth-child(10) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(10) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(10) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Jan Lintag.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(10) div.image:hover {
+      background-image: url("../images/Jan Lintag2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Jan Lintag"; }
+  #team-members .member:nth-child(11) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(11) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(11) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Jon Ingoldby.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(11) div.image:hover {
+      background-image: url("../images/Jon Ingoldby2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Jon Ingoldby"; }
+  #team-members .member:nth-child(12) {
+    float: left;
+    /*border: 1px solid gray;*/
+    margin: 10px;
+    padding: 6px; }
+    #team-members .member:nth-child(12) img {
+      width: 300px;
+      height: 200px; }
+    #team-members .member:nth-child(12) div.image {
+      width: 300px;
+      height: 200px;
+      background-image: url("../images/Krishna Joliffe.jpg");
+      background-size: 100%; }
+    #team-members .member:nth-child(12) div.image:hover {
+      background-image: url("../images/Krishna Joliffe2.jpg"); }
+  #team-members div.name {
+    text-align: center;
+    content: "Krishna Joliffe"; }
 
 /*# sourceMappingURL=style.css.map */

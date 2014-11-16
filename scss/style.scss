@@ -1,4 +1,8 @@
 $primaryColor: #FF0000;
+$names: ('','Andrew Theriault','Ashley Theiss','Casey Sampson','Dave Hyatt','Donald (DJ) Ballard','Dustin Roe','Harper Price-Brown','Jan De Graad','Jan Lintag','Jon Ingoldby','Krishna Joliffe');
+
+body {
+}
 
 body {
   h1 {
@@ -11,19 +15,36 @@ body {
 #team-members {
   clear: both;
 
-  .member {
-    float: left;
-    /*border: 1px solid gray;*/
-    margin: 10px;
-    padding: 6px;
-    
-    img {
-      width: 200px;
-      height: 200px;
-    }
+  @each $name in $names {
+    $i: index($names, $name);
+    .member:nth-child(#{$i}) {
+      float: left;
+      /*border: 1px solid gray;*/
+      margin: 10px;
+      padding: 6px;
+      
+      img {
+        width: 300px;
+        height: 200px;
+      }
 
-    div.name {
-      text-align: center;  
+      div.image {
+        width: 300px;
+        height: 200px;
+        background: {
+          image: url("../images/#{$name}.jpg");
+          size: 100%;
+        }
+      }
+
+      div.image:hover {
+        background-image: url("../images/#{$name}2.jpg");
+      }
+
     }
+      div.name {
+        text-align: center;
+        content: $name; 
+      }
   }
 }
